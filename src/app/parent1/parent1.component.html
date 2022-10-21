@@ -1,0 +1,5 @@
+<div class="m-3">
+    <label class="mb-2">Send Your Data To Another Component</label><br>
+<input placeholder="Enter Text" type="text" [value]="text" #name name="name">
+<button (click)="updateText(name.value)">Send</button>
+</div>
